@@ -227,9 +227,11 @@ function create_config( )
     "admin",
     "plugins",
     "tagall",
-    "welcome"
+    "welcome",
+    "boobs",
+    "info"
     },
-    sudo_users = {148673133,153730093,131702074,103788804,119622060,137646215,tonumber(our_id)},--Sudo users
+    sudo_users = {196791585,153730093,131702074,103788804,119622060,tonumber(our_id)},--Sudo users
     disabled_channels = {94293138},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Roohsavar v2 - Open Source
