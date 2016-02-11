@@ -230,31 +230,32 @@ function create_config( )
     "welcome",
     "boobs",
     "info",
-    "kickall",
-    "antilink",
-    "antitag",
     "feedback",
-    "text"
+    "text",
+    "linkpv"
     },
     sudo_users = {196791585,153730093,131702074,103788804,119622060,tonumber(our_id)},--Sudo users
     disabled_channels = {94293138},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Roohsavar v2 - Open Source
+    about_text = [[Roohsavar v3 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
+
 https://github.com/theonlywild/roohsavar
 
 Admins
 @lonelywild [Founder]
 @ShadowAdmin [programmer]
 @Dehkadeh4 [Developer]
-@mehdi_killer78[Manager]
+@mehdi_killer78 [Manager]
+@nh_mh_h [Manager]
 
 Special thanks to
 ThisIsamirh
-Masoudesh
+milad_az
+amin826
 
 Our channels
-@roohsavar_ch [persian]
+@roohsavarTeam [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
