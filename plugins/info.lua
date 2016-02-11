@@ -46,15 +46,15 @@ local function action_by_reply(extra, success, result)
   send_large_msg(extra.receiver, text)
 end
 
-local function run(msg, matches)
-   if matches[1] == 'info' and msg.reply_id then
+local function run(msg)
+   if msg.text == '!info' and msg.reply_id and is_momod(msg) then
      get_message(msg.reply_id, action_by_reply, {receiver=get_receiver(msg)})
    end
 end
 
 return {
     patterns = {
-      "^([Ii]nfo)$"
+      '^!info$'
     },
   run = run
 }
