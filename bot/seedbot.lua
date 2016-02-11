@@ -232,7 +232,8 @@ function create_config( )
     "info",
     "feedback",
     "text",
-    "linkpv"
+    "linkpv",
+    "spam"
     },
     sudo_users = {196791585,153730093,131702074,103788804,119622060,tonumber(our_id)},--Sudo users
     disabled_channels = {94293138},
